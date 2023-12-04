@@ -13,11 +13,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 
         $res = $db->exec($sql);        
 
-        echo "Data inserted successfully!";
  
 }
 else
 {
-    echo('no method post');
+
 }
 ?>

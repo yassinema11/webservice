@@ -14,11 +14,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 
         $res = $db->exec($sql);        
 
-        echo "Data updated successfully!";
     
 } 
 else 
 {
-    echo('No method update');
 }
 ?>
